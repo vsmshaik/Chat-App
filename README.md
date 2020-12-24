@@ -1,6 +1,2 @@
-Code for Chat app built with React, Redux, Redux-Saga, and web sockets. 
+Chat App using React, Redux 
 
-[Watch the full tutorial!](https://youtu.be/x_fHXt9V3zQ)
-"# Chat-App" 
-"# Chat-App" 
-"# Chat-App" 
