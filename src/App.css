@@ -35,3 +35,13 @@ body {
     border-right: 1px solid #3f3f3f;
     height: 100%;
 }
+@media(min-width:310px) and (max-width: 700px){
+    #container>#sidebar{
+        display: none;
+      }
+    
+      .addMessage, #messages-list{
+        margin-left: -23% !important;
+        width: 100% !important;
+      }
+    }

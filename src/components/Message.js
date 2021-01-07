@@ -2,9 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Message = ({message, author}) => (
+// 	{(author === 'Me')? <p > 
+// 	<i>{author}</i>: {message}
+// </p> : 
+// <p > 
+// 		<i>{author}</i>: {message}
+// 	</p>}
+
 	<p> 
-		<i>{author}</i>: {message}
+		<i>{author }</i>: {message} 
 	</p>
+	
 	)
 
 Message.PropTypes = {

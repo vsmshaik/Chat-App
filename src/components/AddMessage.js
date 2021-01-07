@@ -17,6 +17,7 @@ const AddMessage = (props) => {
 				ref={(node) => {
 					input = node
 				}}
+				className="form-control addMessage"
 			/>
 		</section>
 	)

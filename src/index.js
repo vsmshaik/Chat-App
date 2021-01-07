@@ -10,7 +10,10 @@ import registerServiceWorker from './registerServiceWorker';
 import setupSocket from './sockets'
 import reducers from './reducers'
 import handleNewMessage from './sagas'
-import username from './utils/name'
+import username from './utils/name';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 const sagaMiddleware = createSagaMiddleware()
 
